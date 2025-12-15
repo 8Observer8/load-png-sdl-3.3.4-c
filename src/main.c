@@ -52,9 +52,6 @@ SDL_AppResult SDL_AppInit(void **appstate, int argc, char *argv[])
         return SDL_APP_FAILURE;
     }
 
-    float w, h;
-    SDL_GetTextureSize(texture, &w, &h);
-
     return SDL_APP_CONTINUE;
 }
 
